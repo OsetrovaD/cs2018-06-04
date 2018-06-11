@@ -29,5 +29,4 @@ class TaskA2 {
         System.out.println("Мое любимое стихотворение:");
         System.out.println(a+"\n"+b+"\n"+c+"\n"+d);
     }
-
 }

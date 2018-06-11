@@ -22,7 +22,6 @@ float f - присваивание в десятичном формате
 Для ручной проверки запустите программу Ctrl+Shift+F10
 Для автоматической проверки откройте и запустите класс Testing
 */
-
 strictfp class TaskB1 {
     public static  void main(String[] args) {
         double d = 111.111;

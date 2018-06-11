@@ -49,14 +49,13 @@ class TaskB2 {
             x2 = (-j-Math.sqrt(dis))/(2*i);
             System.out.println(x1+" "+x2);
         }
-        if (dis==0){
+        else if (dis==0){
             double x1;
-            x1 = (-j+Math.sqrt(dis))/(2*i);
+            x1 = (-j)/(2.0*i);
             System.out.println(x1);
         }
-        if (dis<0){
+        else if (dis<0){
             System.out.println("Отрицательный дискриминант");
         }
     }
-
 }

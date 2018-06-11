@@ -27,7 +27,7 @@ public class TaskC2 {
         Scanner n1 = new Scanner(System.in);
         int i = n1.nextInt();
         int sum = sumDigitsInNumber(i);
-        if (i >= 1000 && i <= 9999) {
+        if (i >= 1000 & i <= 9999) {
             System.out.println(sum);
         }
     }

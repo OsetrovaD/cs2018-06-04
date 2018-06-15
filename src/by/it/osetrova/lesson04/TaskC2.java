@@ -45,7 +45,52 @@ public class TaskC2 {
         int daysOfOctober = 274;
         int daysOfNovember = 305;
         int daysOfDecember = 335;
-        if (month >= 1 && month <= 12)
+        int d = 0;
+        if (month >= 1 && month <= 12){
+            switch (month) {
+                case 1:
+                    d = day + daysOfJanuary - 1;
+                    break;
+                case 2:
+                    d = day + daysOfFebruary - 1;
+                    break;
+                case 3:
+                    d = day + daysOfMarch - 1;
+                    break;
+                case 4:
+                    d = day + daysOfApril - 1;
+                    break;
+                case 5:
+                    d = day + daysOfMay - 1;
+                    break;
+                case 6:
+                    d = day + daysOfJune - 1;
+                    break;
+                case 7:
+                    d = day + daysOfJuly - 1;
+                    break;
+                case 8:
+                    d = day + daysOfAugust - 1;
+                    break;
+                case 9:
+                    d = day + daysOfSeptember - 1;
+                    break;
+                case 10:
+                    d = day + daysOfOctober - 1;
+                    break;
+                case 11:
+                    d = day + daysOfNovember - 1;
+                    break;
+                case 12:
+                    d = day + daysOfDecember - 1;
+                    break;
+            }
+        }
+        System.out.println(d);
+    }
+
+}
+/*if (month >= 1 && month <= 12)
             if (month == 1){
             int d = day + daysOfJanuary - 1;
                 System.out.println(d);
@@ -93,7 +138,4 @@ public class TaskC2 {
             else if (month == 12){
                 int d = day + daysOfDecember - 1;
                 System.out.println(d);
-            }
-    }
-
-}
+            }*/
